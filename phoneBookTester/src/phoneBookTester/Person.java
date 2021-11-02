@@ -32,8 +32,11 @@ public class Person {
 	}
 
 	public void printPerson() {
-		System.out.println("Name: " + " " + firstName + " " + middleName + " " + lastName + " " + phoneNumber);
+		System.out.println("_________________________________________");
+		System.out.println("-----------------------------------------");
+		System.out.println("Name: " + " " + firstName + " " + middleName + " " + lastName + ":" + " " + phoneNumber);
 		myAddress.printAddress();
+		System.out.println("_________________________________________");
 		System.out.println("-----------------------------------------");
 	}
 
