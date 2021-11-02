@@ -19,7 +19,7 @@ public class Address {
 	}
 
 	public void printAddress() {
-		System.out.println("Address: " + street + " " + city + " " + state + " " + zip);
+		System.out.println("Address: " + street + "," + " " + city + "," +  " " + state + " " + zip);
 	}
 
 	public String getStreet() {
